@@ -1,18 +1,18 @@
 var HTTPS = require('https');
-var cool = require('cool-ascii-faces');
+var righ = require('./righ.js');
 
 var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\/cool guy$/;
+      botRegex = /^\/righ$/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
     postMessage();
     this.res.end();
   } else {
-    console.log("don't care");
+    console.log("No command in message");
     this.res.writeHead(200);
     this.res.end();
   }
@@ -21,7 +21,7 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
 
-  botResponse = cool();
+  botResponse = righ();
 
   options = {
     hostname: 'api.groupme.com',
