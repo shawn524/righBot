@@ -29,7 +29,6 @@ var righ = [
 "https://i.imgur.com/2buaZRM.png",
 "https://i.imgur.com/wBY8eZw.jpg",
 "https://i.imgur.com/gL7OUH7.jpg",
-"https://i.imgur.com/Iy0NOfv.jpg",
 "https://i.imgur.com/cVbqQTk.jpg",
 "https://i.imgur.com/Jj6gCYr.png",
 "https://i.imgur.com/o85GAdL.jpg",
